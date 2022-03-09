@@ -11,7 +11,7 @@ pipeline{
         stage('Test'){
             steps{
                 // sh "mkdir Tonytestphase"
-                sh "cp PGDtest222 Tonytestphase"
+                sh "cp -r PGDtest222 Tonytestphase"
             }
         }
     }
