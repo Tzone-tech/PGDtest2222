@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('GIT Clone'){
             steps{
-                sh 'mkdir PGDtest222'
+                // sh 'mkdir PGDtest222'
                 git  'https://github.com/Tzone-tech/PGDtest2222.git'
                 
             }
