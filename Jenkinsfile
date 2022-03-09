@@ -9,7 +9,7 @@ pipeline{
         stage('Test'){
             steps{
                 sh "mkdir Tonytestphase"
-                sh "mv PGDtest2222 Tonytestphase"
+                sh "cp PGDtest2222 Tonytestphase"
             }
         }
     }
