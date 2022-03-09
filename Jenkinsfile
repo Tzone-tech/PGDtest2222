@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('GIT Clone'){
             steps{
-                git  'https://github.com/Tzone-tech/Kubernetes-practice.git'
+                git  'https://github.com/Tzone-tech/PGDtest2222.git'
             }
         }
     }
