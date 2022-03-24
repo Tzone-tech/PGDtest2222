@@ -8,22 +8,8 @@ pipeline{
                 
             }
         }
-  agent {
-    kubernetes {
-        label podlabel
-        yaml """
-kind: Pod
-metadata:
-  name: jenkins-agent
-spec:
-  containers:
-  - name: kaniko
-    image: nginx 2.0.0
-    imagePullPolicy: Always
-        
-"""
-        }
-    }
+
+
         stage('Test'){
             steps{
                  sh "mkdir Tonytestphase"
