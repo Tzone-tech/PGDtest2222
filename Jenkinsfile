@@ -26,14 +26,10 @@ spec:
     }
         stage('Test'){
             steps{
-                // sh "mkdir Tonytestphase"
+                 sh "mkdir Tonytestphase"
                 sh "cp -r PGDtest222 Tonytestphase"
             }
         }
-        stage('Build'){
-            steps{
-                 
-            }
-        }
+
     }
 }
